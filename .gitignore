@@ -1,0 +1,25 @@
+node_modules/
+.turbo/
+.next/
+dist/
+build/
+coverage/
+
+.env
+.env.*
+!.env.example
+
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Local Prisma development database.
+apps/api/prisma/dev.db
+apps/api/prisma/dev.db-journal
+apps/api/prisma/dev.db-wal
+apps/api/prisma/dev.db-shm
+
+# Generated Prisma client output.
+apps/api/src/infra/database/generated/
